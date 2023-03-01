@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+.pattern-wrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin: 0.3em auto;
+  width: 8em;
+}
+
+.card-common {
+  color: #1a3380;
+  background-color: #dbdbe1;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #dbdbe1 40px
+    ),
+    repeating-linear-gradient(#d1d1d955, #d1d1d9);
+}
+
+.card-rare {
+  color: #f5b831;
+  background-color: #63656a;
+  opacity: 1;
+  background: linear-gradient(135deg, #6c707755 25%, transparent 25%) -28px 0/
+      56px 56px,
+    linear-gradient(225deg, #6c7077 25%, transparent 25%) -28px 0/ 56px 56px,
+    linear-gradient(315deg, #6c707755 25%, transparent 25%) 0px 0/ 56px 56px,
+    linear-gradient(45deg, #6c7077 25%, #63656a 25%) 0px 0/ 56px 56px;
+}
+
+.card-fresh {
+  color: #7e087c;
+  background-color: #a0b5ec;
+  opacity: 1;
+  background-image: linear-gradient(
+      30deg,
+      #94abd2 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #94abd2 87.5%,
+      #94abd2
+    ),
+    linear-gradient(
+      150deg,
+      #94abd2 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #94abd2 87.5%,
+      #94abd2
+    ),
+    linear-gradient(
+      30deg,
+      #94abd2 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #94abd2 87.5%,
+      #94abd2
+    ),
+    linear-gradient(
+      150deg,
+      #94abd2 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #94abd2 87.5%,
+      #94abd2
+    ),
+    linear-gradient(
+      60deg,
+      #94abd277 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #94abd277 75%,
+      #94abd277
+    ),
+    linear-gradient(
+      60deg,
+      #94abd277 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #94abd277 75%,
+      #94abd277
+    );
+  background-size: 32px 56px;
+  background-position: 0 0, 0 0, 16px 28px, 16px 28px, 0 0, 16px 28px;
+}
+
+.tableturf-card {
+  padding: 0.4em 0.2em;
+  border-radius: 5px;
+  border: 5px solid #4d5660;
+  text-align: center;
+  min-width: 10.5em;
+  font-weight: bolder;
+  margin: 0.3em;
+  box-shadow: 0px 0px 28px 1px #636363;
+}
+
+.pixel {
+  margin: 0;
+  padding: 0;
+}
+
+.pixel-regular {
+  background-color: #ffd700;
+  border: 0.2em outset #ffffb0;
+  width: 1em;
+  height: 1em;
+}
+
+.pixel-special {
+  background-color: #ffa727;
+  opacity: 0.8;
+  background-size: 4px 4px;
+  background-image: repeating-linear-gradient(45deg, #955f0d 0, #955f0d 0.4px, #ffa727 0, #ffa727 50%);
+  border: 0.2em outset #ffd4a0;
+  width: 1em;
+  height: 1em;
+}
+
+.pixel-blank {
+  background-color: #000000c0;
+  border: 1px solid #888888;
+  width: 1em;
+  height: 1em;
+}
+
+.card-name:hover {
+  white-space:initial;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.card-name {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-detail {
+  display: flex;
+}
+
+.card-size {
+  width: 2em;
+  height: 2em;
+  background: #333333cc;
+  color: #eeeeee;
+  border-radius: 0.2em;
+  margin: 0.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.special-cost {
+  display: flex;
+}
+
+.card-background {
+  width: 100%;
+  background-color: #dddddd;
+  background-image: radial-gradient(#9ba0f9 0.8px, #dddddd 0.8px);
+  background-size: 16px 16px;
+  padding: 2em 0;
+  box-shadow: 0px 3px 23px -2px #aaaaaa;
+  margin: 1.8rem 0;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  flex-grow: 1;
+  max-width: 1500px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: 11px 11px;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 1.8rem 0;
+  padding: 0.4em 0;
+  color: #363636;
+  background: #f8f8f8;
+  border-bottom: solid 5px #d7d7d7;
+}
