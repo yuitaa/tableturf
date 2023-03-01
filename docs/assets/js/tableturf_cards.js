@@ -1443,7 +1443,7 @@ const LOCATE = {
       "tenta-brella": "キャンピングシェルター",
       "undercover-brella": "スパイガジェット",
       "tri-stringer": "トライストリンガー",
-      "reef-lux-450": "ラクト450",
+      "reef-lux-450": "LACT-450",
       "splatana-stamper": "ジムワイパー",
       "splatana-wiper": "ドライブワイパー",
       "splat-bomb": "スプラッシュボム",
