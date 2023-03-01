@@ -157,7 +157,7 @@ window.onload = () => {
       lang = "ja";
     } else {
       document.getElementById("th-name").textContent = "Name";
-      document.getElementById("th-leave-card").textContent = "Leave this Card";
+      document.getElementById("th-leave-card").textContent = "Keep this Card";
       lang = "en";
     }
 
