@@ -148,7 +148,7 @@ function randomize_cards() {
 }
 
 window.onload = () => {
-  if (window.navigator.language != "ja") {
+  if (!(/^ja\b/.test(window.navigator.language))) {
     document.getElementById("language-en").checked = true;
     document.getElementById("generate-deck").textContent = "Generate Deck";
     lang = "en";
