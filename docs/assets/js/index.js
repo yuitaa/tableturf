@@ -75,7 +75,6 @@ function createCardElement(pattern, name, num, specialCost, rarity) {
 }
 
 function randomize_cards() {
-
   let cards = [];
 
   Array.prototype.forEach.call(
@@ -87,7 +86,7 @@ function randomize_cards() {
     }
   );
 
-  let leftCards = cards.concat()
+  let leftCards = cards.concat();
 
   document.getElementById("card-container").textContent = "";
   document.getElementById("card-tbody").textContent = "";
@@ -99,9 +98,8 @@ function randomize_cards() {
       cards.push(number);
     }
   }
-  console.log(cards)
+
   cards = cards.sort((i, j) => i - j);
-  console.log(cards)
   cards.forEach((i) => {
     let pattern = parsePatternCode(TABLETURF_CARDS[i]["pattern"]);
     let name = LOCATE[lang][TABLETURF_CARDS[i]["key"]];
@@ -135,7 +133,7 @@ function randomize_cards() {
     if (leftCards.includes(num - 1)) {
       input.setAttribute("checked", true);
     } else {
-      input.removeAttribute("checked")
+      input.removeAttribute("checked");
     }
 
     inputContainer.insertAdjacentElement("beforeend", input);
@@ -150,17 +148,44 @@ function randomize_cards() {
 }
 
 window.onload = () => {
+  if (window.navigator.language != "ja") {
+    document.getElementById("language-en").checked = true;
+    document.getElementById("generate-deck").textContent = "Generate Deck";
+    lang = "en";
+  }
+
   document.getElementById("generate-deck").addEventListener("click", () => {
     if (document.getElementById("language-ja").checked) {
       document.getElementById("th-name").textContent = "カード名";
       document.getElementById("th-leave-card").textContent = "このカードを残す";
+      document.getElementById("generate-deck").textContent = "デッキを生成する";
       lang = "ja";
     } else {
       document.getElementById("th-name").textContent = "Name";
       document.getElementById("th-leave-card").textContent = "Keep this Card";
+      document.getElementById("generate-deck").textContent = "Generate Deck";
       lang = "en";
     }
 
     randomize_cards();
   });
+  document.getElementById("language-ja").addEventListener("change", () => {
+    if (document.getElementById("language-ja").checked) {
+      document.getElementById("generate-deck").textContent = "デッキを生成する";
+    } else {
+      document.getElementById("generate-deck").textContent = "Generate Deck";
+    }
+  });
+  let languageCheckboxes = document.querySelectorAll(`input[name='language']`);
+
+  for (let target of languageCheckboxes) {
+    target.addEventListener("change", () => {
+      if (document.getElementById("language-ja").checked) {
+        document.getElementById("generate-deck").textContent =
+          "デッキを生成する";
+      } else {
+        document.getElementById("generate-deck").textContent = "Generate Deck";
+      }
+    });
+  }
 };
