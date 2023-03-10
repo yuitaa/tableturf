@@ -1,4 +1,22 @@
 var lang = "ja";
+var card_numbers = [];
+
+function copyUrl() {
+
+  let query = card_numbers.map((i) => i + 1).join(";");
+  let url = location.origin + location.pathname + "?cards=" + query;
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(url);
+    document.getElementById("share").textContent = "✓ Copied!";
+    setTimeout(() => {
+      if (document.getElementById("language-ja").checked) {
+        document.getElementById("share").textContent = "デッキの URL をコピーする";
+      } else {
+        document.getElementById("share").textContent = "Copy Deck URL";
+      }
+    }, 2000);
+  }
+}
 
 function parsePatternCode(pattern) {
   let out = "";
@@ -74,7 +92,7 @@ function createCardElement(pattern, name, num, specialCost, rarity) {
   return out;
 }
 
-function randomize_cards() {
+function randomize_cards(setCards) {
   let cards = [];
 
   Array.prototype.forEach.call(
@@ -99,7 +117,12 @@ function randomize_cards() {
     }
   }
 
+  if (setCards) {
+    cards = setCards;
+  }
+
   cards = cards.sort((i, j) => i - j);
+  card_numbers = cards;
   cards.forEach((i) => {
     let pattern = parsePatternCode(TABLETURF_CARDS[i]["pattern"]);
     let name = LOCATE[lang][TABLETURF_CARDS[i]["key"]];
@@ -145,10 +168,11 @@ function randomize_cards() {
       .getElementById("card-tbody")
       .insertAdjacentElement("beforeend", tr);
   });
+  document.getElementById("share").removeAttribute("disabled");
 }
 
 window.onload = () => {
-  if (!(/^ja\b/.test(window.navigator.language))) {
+  if (window.navigator.language != "ja") {
     document.getElementById("language-en").checked = true;
     document.getElementById("generate-deck").textContent = "Generate Deck";
     lang = "en";
@@ -159,11 +183,14 @@ window.onload = () => {
       document.getElementById("th-name").textContent = "カード名";
       document.getElementById("th-leave-card").textContent = "このカードを残す";
       document.getElementById("generate-deck").textContent = "デッキを生成する";
+      document.getElementById("share").textContent =
+        "デッキの URL をコピーする";
       lang = "ja";
     } else {
       document.getElementById("th-name").textContent = "Name";
       document.getElementById("th-leave-card").textContent = "Keep this Card";
       document.getElementById("generate-deck").textContent = "Generate Deck";
+      document.getElementById("share").textContent = "Copy Deck URL";
       lang = "en";
     }
 
@@ -172,8 +199,11 @@ window.onload = () => {
   document.getElementById("language-ja").addEventListener("change", () => {
     if (document.getElementById("language-ja").checked) {
       document.getElementById("generate-deck").textContent = "デッキを生成する";
+      document.getElementById("share").textContent =
+        "デッキの URL をコピーする";
     } else {
       document.getElementById("generate-deck").textContent = "Generate Deck";
+      document.getElementById("share").textContent = "Copy Deck URL";
     }
   });
   let languageCheckboxes = document.querySelectorAll(`input[name='language']`);
@@ -183,9 +213,22 @@ window.onload = () => {
       if (document.getElementById("language-ja").checked) {
         document.getElementById("generate-deck").textContent =
           "デッキを生成する";
+        document.getElementById("share").textContent =
+          "デッキの URL をコピーする";
       } else {
         document.getElementById("generate-deck").textContent = "Generate Deck";
+        document.getElementById("share").textContent = "Copy Deck URL";
       }
     });
+  }
+  document.getElementById("share").addEventListener("click", copyUrl);
+
+  let params = new URLSearchParams(location.search);
+  let cards = params.get("cards");
+
+  if (cards) {
+    cards = cards.split(";");
+    cards = cards.map((i) => parseInt(i) - 1);
+    randomize_cards(cards);
   }
 };
