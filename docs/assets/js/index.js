@@ -176,7 +176,7 @@ window.onload = () => {
     document.getElementById("language-en").checked = true;
     document.getElementById("generate-deck").textContent = "Generate Deck";
     document.getElementById("share").textContent =
-        "デッキの URL をコピーする";
+        "Copy Deck URL";
     lang = "en";
   }
 
