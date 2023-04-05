@@ -18,24 +18,6 @@ function copyUrl() {
   }
 }
 
-function parsePatternCode(pattern) {
-  let out = "";
-  let patternCodeSplitted = pattern.split(";");
-
-  out += "0".repeat(Number(patternCodeSplitted[0]));
-
-  patternCodeSplitted[1].split("").forEach((i) => {
-    if (Number.isNaN(Number(i))) {
-      out += "0".repeat(i.codePointAt(0) - 97);
-    } else {
-      out += i;
-    }
-  });
-  out = out.split("");
-  out = out.map((i) => Number(i));
-  return out;
-}
-
 function createCardElement(pattern, name, num, specialCost, rarity) {
   const CARD_SIZE = pattern.filter((i) => {
     return 0 < i;
@@ -124,7 +106,7 @@ function randomize_cards(setCards) {
   cards = cards.sort((i, j) => i - j);
   card_numbers = cards;
   cards.forEach((i) => {
-    let pattern = parsePatternCode(TABLETURF_CARDS[i]["pattern"]);
+    let pattern = TABLETURF_CARDS[i]["pattern"].split("");
     let name = LOCATE[lang][TABLETURF_CARDS[i]["key"]];
     let num = i + 1;
     let specialCost = TABLETURF_CARDS[i]["sp"];

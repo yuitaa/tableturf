@@ -1,1194 +1,1194 @@
 const TABLETURF_CARDS = [
     {
         "key": "hero-shot",
-        "pattern": "17;11111d11121e1g1",
+        "pattern": "000000000000000001111100011121000010000001",
         "sp": 5,
         "rarity": 2
     },
     {
         "key": "sploosh-o-matic",
-        "pattern": "18;12b1e1111f1b1",
+        "pattern": "00000000000000000012010000111100000101",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "splattershot-jr",
-        "pattern": "26;121f1",
+        "pattern": "00000000000000000000000000121000001",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "splash-o-matic",
-        "pattern": "20;1f1112f11",
+        "pattern": "0000000000000000000010000011120000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "aerospray-mg",
-        "pattern": "18;12g1111f1",
+        "pattern": "000000000000000000120000001111000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "splattershot",
-        "pattern": "18;112f1111e1",
+        "pattern": "00000000000000000011200000111100001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "52-gal",
-        "pattern": "18;1112f11f1",
+        "pattern": "00000000000000000011120000011000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "n-zap-85",
-        "pattern": "26;1121e1",
+        "pattern": "00000000000000000000000000112100001",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "splattershot-pro",
-        "pattern": "20;12d111111e1",
+        "pattern": "000000000000000000001200011111100001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "96-gal",
-        "pattern": "17;111112d111e1",
+        "pattern": "0000000000000000011111200011100001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "jet-squelcher",
-        "pattern": "17;121111c1h111",
+        "pattern": "000000000000000001211110010000000111",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "luna-blaster",
-        "pattern": "21;2e111g11g1",
+        "pattern": "00000000000000000000020000111000000110000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "blaster",
-        "pattern": "17;1c12e1111e1",
+        "pattern": "00000000000000000100120000111100001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "range-blaster",
-        "pattern": "17;1d12d11111d1",
+        "pattern": "00000000000000000100012000111110001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "clash-blaster",
-        "pattern": "19;111e1112e1",
+        "pattern": "00000000000000000001110000111200001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "rapid-blaster",
-        "pattern": "18;1121e111f1",
+        "pattern": "00000000000000000011210000111000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "rapid-blaster-pro",
-        "pattern": "17;11111d112f1",
+        "pattern": "0000000000000000011111000112000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "l-3-nozzlenose",
-        "pattern": "18;1211e11g1",
+        "pattern": "00000000000000000012110000110000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "h-3-nozzlenose",
-        "pattern": "17;11121d11g1",
+        "pattern": "0000000000000000011121000110000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "squeezer",
-        "pattern": "13;2g1f11g11g1",
+        "pattern": "0000000000000200000010000011000000110000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "carbon-roller",
-        "pattern": "18;1111f12h1",
+        "pattern": "0000000000000000001111000001200000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "splat-roller",
-        "pattern": "17;11211f111f1",
+        "pattern": "000000000000000001121100000111000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "dynamo-roller",
-        "pattern": "16;1111111e2111e1h1",
+        "pattern": "00000000000000001111111000021110000100000001",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "flingza-roller",
-        "pattern": "17;11211f11g11g1",
+        "pattern": "00000000000000000112110000011000000110000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "inkbrush",
-        "pattern": "12;21g11f1g1g1",
+        "pattern": "000000000000210000001100000100000010000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "octobrush",
-        "pattern": "13;1g211f11f1g1g1",
+        "pattern": "00000000000001000000211000001100000100000010000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "classic-squiffer",
-        "pattern": "25;111111c12",
+        "pattern": "00000000000000000000000001111110012",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "splat-charger",
-        "pattern": "24;1111111d2",
+        "pattern": "00000000000000000000000011111110002",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "splatterscope",
-        "pattern": "18;12e1111111d1",
+        "pattern": "00000000000000000012000011111110001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "e-liter-4k",
-        "pattern": "24;1111111b111c2",
+        "pattern": "00000000000000000000000011111110111002",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "e-liter-4k-scope",
-        "pattern": "19;12d1111111b111c1",
+        "pattern": "00000000000000000001200011111110111001",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "bamboozler-14-mk-i",
-        "pattern": "25;1d1d12111",
+        "pattern": "00000000000000000000000001000100012111",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "goo-tuber",
-        "pattern": "17;111111c112b1g1",
+        "pattern": "0000000000000000011111100112010000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "slosher",
-        "pattern": "18;1i21f111",
+        "pattern": "0000000000000000001000000002100000111",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "tri-slosher",
-        "pattern": "19;1h12g11",
+        "pattern": "0000000000000000000100000001200000011",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "sloshing-machine",
-        "pattern": "18;121g11g11",
+        "pattern": "0000000000000000001210000001100000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "bloblobber",
-        "pattern": "17;1h21111d1111",
+        "pattern": "0000000000000000010000000211110001111",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "explosher",
-        "pattern": "17;1c1e1111e11112",
+        "pattern": "00000000000000000100100001111000011112",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "mini-splatling",
-        "pattern": "25;11112d11",
+        "pattern": "00000000000000000000000001111200011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "heavy-splatling",
-        "pattern": "9;11g11g11h11h12h11",
+        "pattern": "000000000110000001100000011000000011000000012000000011",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "hydra-splatling",
-        "pattern": "17;11g11g111112d111",
+        "pattern": "000000000000000001100000011000000111112000111",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "ballpoint-splatling",
-        "pattern": "18;1g1111e11121",
+        "pattern": "00000000000000000010000001111000011121",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "nautilus-47",
-        "pattern": "17;11g11g11112",
+        "pattern": "00000000000000000110000001100000011112",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "dapple-dualies",
-        "pattern": "18;111f1b2g11",
+        "pattern": "0000000000000000001110000010200000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "splat-dualies",
-        "pattern": "18;1111e12f11",
+        "pattern": "00000000000000000011110000120000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "glooga-dualies",
-        "pattern": "20;1f1112f11g11",
+        "pattern": "000000000000000000001000001112000001100000011",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "dualie-squelchers",
-        "pattern": "17;11g11111d2h11",
+        "pattern": "0000000000000000011000000111110002000000011",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "dark-tetra-dualies",
-        "pattern": "19;121e1b11f11",
+        "pattern": "0000000000000000000121000010110000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "splat-brella",
-        "pattern": "11;1h11f1211d1b11g1",
+        "pattern": "00000000000100000001100000121100010110000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "tenta-brella",
-        "pattern": "11;11h11f121e1b11f11",
+        "pattern": "000000000001100000001100000121000010110000011",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "undercover-brella",
-        "pattern": "11;1i1f11b2e1b1g1",
+        "pattern": "00000000000100000000100000110200001010000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "tri-stringer",
-        "pattern": "9;12111d1b1f11g1h1",
+        "pattern": "000000000121110001010000011000000100000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "reef-lux-450",
-        "pattern": "18;1b11f21f111f1",
+        "pattern": "0000000000000000001011000002100000111000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "splatana-stamper",
-        "pattern": "11;2h1h1h1h1h1",
+        "pattern": "0000000000020000000100000001000000010000000100000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "splatana-wiper",
-        "pattern": "11;2h1h1h1h1",
-        "sp": 2,
+        "pattern": "00000000000200000001000000010000000100000001",
+"sp": 2,
         "rarity": 0
     },
     {
         "key": "splat-bomb",
-        "pattern": "28;2g11",
+        "pattern": "0000000000000000000000000000200000011",
         "sp": 1,
         "rarity": 0
     },
     {
         "key": "suction-bomb",
-        "pattern": "19;1h1h2",
+        "pattern": "000000000000000000010000000100000002",
         "sp": 1,
         "rarity": 0
     },
     {
         "key": "burst-bomb",
-        "pattern": "27;2",
+        "pattern": "0000000000000000000000000002",
         "sp": 1,
         "rarity": 0
     },
     {
         "key": "sprinkler",
-        "pattern": "26;1b1g2",
+        "pattern": "000000000000000000000000001010000002",
         "sp": 1,
         "rarity": 0
     },
     {
         "key": "splash-wall",
-        "pattern": "18;111g2h1",
+        "pattern": "000000000000000000111000000200000001",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "fizzy-bomb",
-        "pattern": "19;1h2h1",
+        "pattern": "000000000000000000010000000200000001",
         "sp": 1,
         "rarity": 0
     },
     {
         "key": "curling-bomb",
-        "pattern": "27;2g111",
+        "pattern": "0000000000000000000000000002000000111",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "autobomb",
-        "pattern": "19;12f111g1",
+        "pattern": "000000000000000000012000001110000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "squid-beakon",
-        "pattern": "18;111f121g1g1b1",
+        "pattern": "000000000000000000111000001210000001000000101",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "point-sensor",
-        "pattern": "18;1b1g2g1b1",
+        "pattern": "0000000000000000001010000002000000101",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "ink-mine",
-        "pattern": "19;1g1b1g2",
+        "pattern": "000000000000000000010000001010000002",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "toxic-mist",
-        "pattern": "18;1i21g11",
+        "pattern": "0000000000000000001000000002100000011",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "angle-shooter",
-        "pattern": "12;2g1g1i1i1",
+        "pattern": "000000000000200000010000001000000001000000001",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "torpedo",
-        "pattern": "19;1h11f2",
+        "pattern": "00000000000000000001000000011000002",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "trizooka",
-        "pattern": "13;11e1b11d1b1e1b1g11h1",
+        "pattern": "0000000000000110000101100010100001010000001100000001",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "big-bubbler",
-        "pattern": "11;11f1c1d1e1c1e1d1c1f11",
+        "pattern": "00000000000110000010010001000010010000100010010000011",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "zipcaster",
-        "pattern": "14;1g1d11b1e111g111g1",
+        "pattern": "0000000000000010000001000110100001110000001110000001",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "tenta-missiles",
-        "pattern": "17;11c11c111111d1c1",
+        "pattern": "00000000000000000110011001111110001001",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "ink-storm",
-        "pattern": "17;1b1g1111e1111d1b1",
+        "pattern": "00000000000000000101000000111100001111000101",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "booyah-bomb",
-        "pattern": "19;11f1111e1111f11",
+        "pattern": "000000000000000000011000001111000011110000011",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "wave-breaker",
-        "pattern": "9;1b1b1e1b1e1d1e1b1e1b1b1",
+        "pattern": "0000000001010100001010000100010000101000010101",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "ink-vac",
-        "pattern": "17;11d1c111c1d11c1f11",
+        "pattern": "0000000000000000011000100111001000110010000011",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "killer-wail-51",
-        "pattern": "11;1f1b1b1e1b1f1b1e1b1b1f1",
+        "pattern": "0000000000010000010101000010100000101000010101000001",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "inkjet",
-        "pattern": "17;111111c1b11b1e11",
+        "pattern": "0000000000000000011111100101101000011",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "ultra-stamp",
-        "pattern": "20;11d111111e1111",
+        "pattern": "000000000000000000001100011111100001111",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "crab-tank",
-        "pattern": "10;1c1f11f1c1d1e1c11c11",
+        "pattern": "00000000001001000001100000100100010000100110011",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "reefslider",
-        "pattern": "19;1g111b1c111111e1",
+        "pattern": "00000000000000000001000000111010011111100001",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "triple-inkstrike",
-        "pattern": "19;11g11e11c11c11c11",
+        "pattern": "00000000000000000001100000011000011001100110011",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "tacticooler",
-        "pattern": "10;111f1b1e1b1b1e111g1",
+        "pattern": "00000000001110000010100001010100001110000001",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "sheldon",
-        "pattern": "18;111e11111d1b1b1e2b1",
+        "pattern": "000000000000000000111000011111000101010000201",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "gnarly-eddy",
-        "pattern": "10;112e1b1b1d11111d1b1g11",
+        "pattern": "00000000001120000101010001111100010100000011",
         "sp": 6,
         "rarity": 1
     },
     {
         "key": "jel-la-fleur",
-        "pattern": "11;1g111f111e1b2b1e1b1",
+        "pattern": "000000000001000000111000001110000102010000101",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "mr-coco",
-        "pattern": "11;1g111f111e11111d2b1b1",
+        "pattern": "0000000000010000001110000011100001111100020101",
         "sp": 6,
         "rarity": 1
     },
     {
         "key": "harmony",
-        "pattern": "10;111f1111f12f1c1e1c1d1e1",
+        "pattern": "0000000000111000001111000001200000100100001001000100001",
         "sp": 6,
         "rarity": 1
     },
     {
         "key": "murch",
-        "pattern": "10;1b1e1b1b1e1b1e1b2b1e1b1",
+        "pattern": "000000000010100001010100001010000102010000101",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "mr-grizz",
-        "pattern": "11;1g2g1b1f111f11111f1b1",
+        "pattern": "000000000001000000200000010100000111000001111100000101",
         "sp": 6,
         "rarity": 1
     },
     {
         "key": "marigold",
-        "pattern": "11;1g111e1b1b1d11211e111",
+        "pattern": "000000000001000000111000010101000112110000111",
         "sp": 6,
         "rarity": 1
     },
     {
         "key": "smallfry",
-        "pattern": "27;2h11",
+        "pattern": "0000000000000000000000000002000000011",
         "sp": 1,
         "rarity": 2
     },
     {
         "key": "cuttlefish",
-        "pattern": "11;1g111g1g111f111e1b2b1",
+        "pattern": "000000000001000000111000000100000011100000111000010201",
         "sp": 6,
         "rarity": 2
     },
     {
         "key": "captain",
-        "pattern": "9;111f1111d1121b1e1d1e1i1",
+        "pattern": "00000000011100000111100011210100001000100001000000001",
         "sp": 6,
         "rarity": 2
     },
     {
         "key": "callie",
-        "pattern": "9;11g1111f112g1b1d1b1g1b1",
+        "pattern": "00000000011000000111100000112000000101000101000000101",
         "sp": 6,
         "rarity": 2
     },
     {
         "key": "marie",
-        "pattern": "12;11e1111e211e1b1h1b1e1b1",
+        "pattern": "00000000000011000011110000211000010100000001010000101",
         "sp": 6,
         "rarity": 2
     },
     {
         "key": "shiver",
-        "pattern": "3;1h1g111e2b1b1d11b11e111f1b1",
+        "pattern": "00010000000100000011100002010100011011000011100000101",
         "sp": 6,
         "rarity": 2
     },
     {
         "key": "frye",
-        "pattern": "2;1b1f111e1b1b2d11b11e1b1f1b1g1",
+        "pattern": "0010100000111000010102000110110000101000001010000001",
         "sp": 6,
         "rarity": 2
     },
     {
         "key": "big-man",
-        "pattern": "10;1c1d1b111e111f111b1c11c2g1",
+        "pattern": "00000000001001000101110000111000001110100110020000001",
         "sp": 6,
         "rarity": 2
     },
     {
         "key": "judd",
-        "pattern": "18;1b1e11111d1b1b1d11b21",
+        "pattern": "0000000000000000001010000111110001010100011021",
         "sp": 6,
         "rarity": 2
     },
     {
         "key": "li-l-judd",
-        "pattern": "18;1b1f111f112",
+        "pattern": "0000000000000000001010000011100000112",
         "sp": 3,
         "rarity": 2
     },
     {
         "key": "squidforce",
-        "pattern": "11;1h1f11111f12g1",
+        "pattern": "00000000000100000001000001111100000120000001",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "zink",
-        "pattern": "10;1111f111e1b11d1b2b1e1",
+        "pattern": "0000000000111100000111000010110001020100001",
         "sp": 6,
         "rarity": 1
     },
     {
         "key": "krak-on",
-        "pattern": "19;21f11111c11111f11",
+        "pattern": "000000000000000000021000001111100111110000011",
         "sp": 6,
         "rarity": 1
     },
     {
         "key": "rockenberg",
-        "pattern": "18;1b1f12g1b1f111",
+        "pattern": "000000000000000000101000001200000010100000111",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "zekko",
-        "pattern": "19;1f11211d11111f1",
+        "pattern": "00000000000000000001000001121100011111000001",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "forge",
-        "pattern": "19;111e111f21g1",
+        "pattern": "0000000000000000000111000011100000210000001",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "firefin",
-        "pattern": "20;2i1f111e1111",
+        "pattern": "0000000000000000000020000000010000011100001111",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "skalop",
-        "pattern": "18;2b1e11111d11111e1b1",
+        "pattern": "000000000000000000201000011111000111110000101",
         "sp": 6,
         "rarity": 1
     },
     {
         "key": "splash-mob",
-        "pattern": "25;1121b1c11b111",
+        "pattern": "000000000000000000000000011210100110111",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "inkline",
-        "pattern": "25;11211d11b11d1d1",
+        "pattern": "0000000000000000000000000112110001101100010001",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "tentatek",
-        "pattern": "28;2g1",
+        "pattern": "000000000000000000000000000020000001",
         "sp": 1,
         "rarity": 1
     },
     {
         "key": "takoroka",
-        "pattern": "17;112b1e11111c111b1",
+        "pattern": "00000000000000000112010000111110011101",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "annaki",
-        "pattern": "11;1g111f111f121e1d1",
+        "pattern": "0000000000010000001110000011100000121000010001",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "enperry",
-        "pattern": "20;1e1b211e111e11111",
+        "pattern": "0000000000000000000010000102110000111000011111",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "toni-kensa",
-        "pattern": "18;1h111f1h121",
+        "pattern": "000000000000000000100000001110000010000000121",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "barazushi",
-        "pattern": "21;1g11f1b2e1111",
+        "pattern": "0000000000000000000001000000110000010200001111",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "emberz",
-        "pattern": "10;1b1e1d1e1b1g2g1b1",
+        "pattern": "000000000010100001000100001010000002000000101",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "octotrooper",
-        "pattern": "19;1h21f111g11",
+        "pattern": "000000000000000000010000000210000011100000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "shielded-octotrooper",
-        "pattern": "20;1f1b21e1111e1b11",
+        "pattern": "0000000000000000000010000010210000111100001011",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "twintacle-octotrooper",
-        "pattern": "17;111b1f21f111g11",
+        "pattern": "000000000000000001110100000210000011100000011",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "octohopper",
-        "pattern": "11;1h21f111g11g1h1",
+        "pattern": "0000000000010000000210000011100000011000000100000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "octocopter",
-        "pattern": "18;1b1g2h1",
+        "pattern": "000000000000000000101000000200000001",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "octobomber",
-        "pattern": "19;1g111e11111e111b2",
+        "pattern": "00000000000000000001000000111000011111000011102",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "octodisco",
-        "pattern": "11;1f11111d1d1d2d1d1d1",
+        "pattern": "0000000000010000011111000100010002000100010001",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "octopod",
-        "pattern": "27;21",
+        "pattern": "00000000000000000000000000021",
         "sp": 1,
         "rarity": 1
     },
     {
         "key": "oversized-octopod",
-        "pattern": "18;1111e1111f2g1b1",
+        "pattern": "000000000000000000111100001111000002000000101",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "tentakook",
-        "pattern": "21;1g11e12g11",
+        "pattern": "00000000000000000000010000001100001200000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "octosniper",
-        "pattern": "12;11g1h12e1111g1",
+        "pattern": "000000000000110000001000000012000011110000001",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "octocommander",
-        "pattern": "11;11g1h12e11111f1b1",
+        "pattern": "0000000000011000000100000001200001111100000101",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "octomissile",
-        "pattern": "27;1g2111",
+        "pattern": "00000000000000000000000000010000002111",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "octozeppelin",
-        "pattern": "19;1g2111e1111",
+        "pattern": "00000000000000000001000000211100001111",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "squee-g",
-        "pattern": "18;111f111g2g1",
+        "pattern": "0000000000000000001110000011100000020000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "octostamp",
-        "pattern": "27;11g21",
+        "pattern": "0000000000000000000000000001100000021",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "amped-octostamp",
-        "pattern": "11;1g1b1e1b2b1e1b1g1",
+        "pattern": "00000000000100000010100001020100001010000001",
         "sp": 4,
         "rarity": 1
     },
-    {
+{
         "key": "flooder",
-        "pattern": "17;12111d1b1b1d1b1b1d1b1b1",
+        "pattern": "0000000000000000012111000101010001010100010101",
         "sp": 6,
         "rarity": 0
     },
     {
         "key": "octoballer",
-        "pattern": "10;1i11f1111e1111f12",
+        "pattern": "000000000010000000011000001111000011110000012",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "octoling",
-        "pattern": "18;1b1f111f121e1b1b1",
+        "pattern": "0000000000000000001010000011100000121000010101",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "dj-octavio",
-        "pattern": "10;1g1111f111b1d1121g1b1e1b1",
+        "pattern": "000000000010000001111000001110100011210000001010000101",
         "sp": 6,
         "rarity": 2
     },
     {
         "key": "chum",
-        "pattern": "19;1g21h11",
+        "pattern": "0000000000000000000100000021000000011",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "cohock",
-        "pattern": "20;1g11f211g111",
+        "pattern": "0000000000000000000010000001100000211000000111",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "snatcher",
-        "pattern": "19;1g11h1g1b2",
+        "pattern": "000000000000000000010000001100000001000000102",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "steelhead",
-        "pattern": "10;2g111g111g11g111",
+        "pattern": "0000000000200000011100000011100000011000000111",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "steel-eel",
-        "pattern": "24;121111c11d11",
+        "pattern": "000000000000000000000000121111001100011",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "scrapper",
-        "pattern": "19;12e1b11b1d1111",
+        "pattern": "00000000000000000001200001011010001111",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "stinger",
-        "pattern": "11;21h1h1h1h1h1",
+        "pattern": "00000000000210000000100000001000000010000000100000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "maws",
-        "pattern": "18;1c1d11c11c111121",
+        "pattern": "000000000000000000100100011001100111121",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "drizzler",
-        "pattern": "19;1g111e11111d1b2b1",
+        "pattern": "0000000000000000000100000011100001111100010201",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "flyfish",
-        "pattern": "17;11b11d11211d11b11",
+        "pattern": "00000000000000000110110001121100011011",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "fish-stick",
-        "pattern": "9;11b11f1h1h1h2h1",
+        "pattern": "0000000001101100000100000001000000010000000200000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "flipper-flopper",
-        "pattern": "11;1b1g1f111g111f21h1",
+        "pattern": "00000000000101000000100000111000000111000002100000001",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "slammin-lid",
-        "pattern": "27;2f11111",
+        "pattern": "00000000000000000000000000020000011111",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "big-shot",
-        "pattern": "20;1g111d21b11d11b111",
+        "pattern": "00000000000000000000100000011100021011000110111",
         "sp": 5,
         "rarity": 0
     },
     {
         "key": "goldie",
-        "pattern": "11;1f11h1b1e112b1e111",
+        "pattern": "000000000001000001100000001010000112010000111",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "griller",
-        "pattern": "18;1111d21111f11f1c1",
+        "pattern": "0000000000000000001111000211110000011000001001",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "mothership",
-        "pattern": "17;11111d11111f1h2",
+        "pattern": "00000000000000000111110001111100000100000002",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "mudmouth",
-        "pattern": "11;1g1b1f1b1f1b1f121f111",
+        "pattern": "00000000000100000010100000101000001010000012100000111",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "zapfish",
-        "pattern": "21;1f11g121e1b11",
+        "pattern": "0000000000000000000001000001100000012100001011",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "tower-control",
-        "pattern": "11;1h1f11211e111f111",
+        "pattern": "000000000001000000010000011211000011100000111",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "rainmaker",
-        "pattern": "11;1g1h1211d1111h11",
+        "pattern": "0000000000010000001000000012110001111000000011",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "power-clam",
-        "pattern": "18;211e11111e111",
+        "pattern": "0000000000000000002110000111110000111",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "custom-splattershot-jr",
-        "pattern": "26;121h1",
+        "pattern": "0000000000000000000000000012100000001",
         "sp": 2,
         "rarity": 0
     },
-    {
+ {
         "key": "aerospray-rg",
-        "pattern": "20;21e1111g1",
+        "pattern": "0000000000000000000021000011110000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "tentatek-splattershot",
-        "pattern": "19;211e1111h1",
+        "pattern": "00000000000000000002110000111100000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "forge-splattershot-pro",
-        "pattern": "18;21f111111f1",
+        "pattern": "0000000000000000002100000111111000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "splattershot-nova",
-        "pattern": "17;1111e11112e1",
+        "pattern": "00000000000000000111100001111200001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "luna-blaster-neo",
-        "pattern": "18;2i111f11h1",
+        "pattern": "000000000000000000200000000111000001100000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "carbon-roller-deco",
-        "pattern": "18;1111f21g1",
+        "pattern": "000000000000000000111100000210000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "big-swig-roller",
-        "pattern": "17;111211e11g1",
+        "pattern": "000000000000000001112110000110000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "inkbrush-nouveau",
-        "pattern": "9;12g11i1i1i1",
+        "pattern": "0000000001200000011000000001000000001000000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "snipewriter-5h",
-        "pattern": "17;1g1111121d1",
+        "pattern": "00000000000000000100000011111210001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "slosher-deco",
-        "pattern": "20;1f12g111",
+        "pattern": "0000000000000000000010000012000000111",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "zink-mini-splatling",
-        "pattern": "25;21111g11",
+        "pattern": "00000000000000000000000002111100000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "dapple-dualies-nouveau",
-        "pattern": "18;111f2b1f11",
+        "pattern": "000000000000000000111000002010000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "neo-sploosh-o-matic",
-        "pattern": "18;1021e1111e1b1",
+        "pattern": "0000000000000000001021000011110000101",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "neo-splash-o-matic",
-        "pattern": "19;1g2111f11",
+        "pattern": "0000000000000000000100000021110000011",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "n-zap-89",
-        "pattern": "26;1211h1",
+        "pattern": "00000000000000000000000000121100000001",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "96-gal-deco",
-        "pattern": "17;211111e111i1",
+        "pattern": "000000000000000002111110000111000000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "custom-jet-squelcher",
-        "pattern": "17;111121h1f111",
+        "pattern": "000000000000000001111210000000100000111",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "clash-blaster-neo",
-        "pattern": "18;111f2111h1",
+        "pattern": "00000000000000000011100000211100000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "rapid-blaster-deco",
-        "pattern": "18;1211f111h1",
+        "pattern": "00000000000000000012110000011100000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "l-3-nozzlenose-d",
-        "pattern": "18;1121g11h1",
+        "pattern": "00000000000000000011210000001100000001",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "krak-on-splat-roller",
-        "pattern": "17;11211d111h1",
+        "pattern": "000000000000000001121100011100000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "z-plus-f-splat-charger",
-        "pattern": "24;1111111f2",
+        "pattern": "0000000000000000000000001111111000002",
         "sp": 3,
         "rarity": 0
     },
     {
         "key": "z-plus-f-splatterscope",
-        "pattern": "19;21d1111111f1",
+        "pattern": "0000000000000000000210001111111000001",
         "sp": 4,
         "rarity": 0
     },
     {
         "key": "tri-slosher-nouveau",
-        "pattern": "20;1g21g11",
+        "pattern": "0000000000000000000010000002100000011",
         "sp": 2,
         "rarity": 0
     },
     {
         "key": "kraken-royale",
-        "pattern": "9;1i111f11g1b11g1b1g1",
+        "pattern": "000000000100000000111000001100000010110000001010000001",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "super-chump",
-        "pattern": "9;111f111f111b1g1g1",
+        "pattern": "00000000011100000111000001110100000010000001",
         "sp": 3,
         "rarity": 1
     },
     {
         "key": "shelly-and-donny",
-        "pattern": "12;111f21g1e111f11g1",
+        "pattern": "00000000000011100000210000001000011100000110000001",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "annie",
-        "pattern": "9;1b1b1e2b1e1b1b1e111e1d1",
+        "pattern": "0000000001010100002010000101010000111000010001",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "jelonzo",
-        "pattern": "10;b1g111f211e1b1b1e1b1",
+        "pattern": "000000000001000000111000002110000101010000101",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "fred-crumbs",
-        "pattern": "10;1g11i121f111f11",
+        "pattern": "000000000010000001100000000121000001110000011",
         "sp": 4,
         "rarity": 1
     },
     {
         "key": "spyke",
-        "pattern": "9;1b1b1e1b1e1b1b1e1b2e1b1b1",
+        "pattern": "0000000001010100001010000101010000102000010101",
         "sp": 5,
         "rarity": 1
     },
     {
         "key": "the-eel-deal-frye",
-        "pattern": "18;111e112111h1e1111",
+        "pattern": "00000000000000000011100001121110000000100001111",
         "sp": 5,
         "rarity": 2
     },
     {
         "key": "the-cold-blooded-bandit-shiver",
-        "pattern": "21;1d11111b1c11211f1c1",
+        "pattern": "000000000000000000000100011111010011211000001001",
         "sp": 5,
         "rarity": 2
     },
     {
         "key": "the-hype-manta-storm-big-man",
-        "pattern": "13;1f111e112f111e11c1i1",
+        "pattern": "0000000000000100000111000011200000111000011001000000001",
         "sp": 5,
         "rarity": 2
     },
     {
         "key": "z-plus-f",
-        "pattern": "19;111h1f211e1111",
+        "pattern": "0000000000000000000111000000010000021100001111",
         "sp": 4,
         "rarity": 1
-    },
-
+    }
 ];
+
 const LOCATE = {
     "en": {
       "hero-shot": "Hero Shot",
